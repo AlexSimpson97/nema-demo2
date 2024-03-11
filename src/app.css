@@ -1,0 +1,152 @@
+/* @import url('/webfonts/monoDrip.css'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion Thin Italic.ttf');
+    font-weight: 100;
+    font-style: italic;
+    }
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion Light Italic.ttf');
+    font-weight: 300;
+    font-style: italic;
+    }
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion Regular Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+    }
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+    }
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion Medium Italic.ttf');
+    font-weight: 500;
+    font-style: italic;
+    }
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion SemiBold.ttf');
+    font-weight: 600;
+    font-weight: bold;
+    }
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion SemiBold Italic.ttf');
+    font-weight: 600;
+    font-style: italic;
+    }
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion Bold.ttf');
+    font-weight: 700;
+    }
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion Bold Italic.ttf');
+    font-weight: 700;
+    font-style: italic;
+    }
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion Black.ttf');
+    font-weight: 900;
+    
+    }
+
+    @font-face {
+    font-family: monoDrip;
+    src: url('/webfonts/Gelion/Gelion Black  Italic.ttf');
+    font-weight: 900;
+    font-style: italic;
+    }
+
+    @font-face {
+    font-family: monoRead;
+    src: url('/webfonts/Synonym/Synonym\ Medium.otf');
+    }
+
+    html {
+        font-family: monoDrip;
+        scroll-behavior: smooth;
+    }
+
+    *::selection {
+        background-color: rgb(82 82 91);
+        color: #e9ffe7;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding-top: 9rem;
+        overflow-x: clip;
+        font-family: monoDrip, Arial, Helvetica, sans-serif;
+
+        /* @media (min-width: 768px) {
+            .md\:max-w-\[1920px\] {
+                max-width: 1920px;
+            }
+        }
+
+        @media (min-width: 640px) {
+            .sm\:pt-36 {
+                padding-top: 9rem;
+            }
+        } */
+    }
+
+    @media (min-width: 768px) {
+        .md\:max-w-\[1920px\] {
+            max-width: 1920px;
+        }
+    }
+
+    @media (min-width: 640px) {
+        .sm\:pt-36 {
+            padding-top: 9rem/* 90px */;
+        }
+    }
