@@ -1,3 +1,4 @@
+// emailSetup.server.js (location: src/lib/emailSetup.server.js)
 export const prerender = false;
 import nodemailer from "nodemailer";
 import { NEMA_EMAIL, NEMA_PASSWORD } from "$env/static/private";
